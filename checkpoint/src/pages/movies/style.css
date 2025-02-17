@@ -5,15 +5,18 @@
 }
 
 #fromMovie {
+  /* border: 1px white solid; */
   width: 100%;
   display: grid;
   grid-template: 1fr/1fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
   margin: auto;
   padding: 3px;
   gap: 10px;
 }
 #fromMovie input {
   all: unset;
+  box-sizing: border-box;
   padding: 20px;
   margin: 10px 0;
   border-radius: 5px;
@@ -31,15 +34,18 @@
   color: #888;
 }
 #fromMovie button {
-  border-radius: 20px;
+  all: unset;
+  box-sizing: border-box;
+  border-radius: 5px;
   width: 100%;
-  padding: 12px;
+  padding: 15px 5px;
   background: #e50914;
   color: #fff;
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  text-align: center;
 }
 
 button:hover {
