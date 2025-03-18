@@ -1,4 +1,12 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
 #app {
-  min-height: 100vh;
-  background-color: #011123;
+  text-align: center;
+  padding: 20px;
 }

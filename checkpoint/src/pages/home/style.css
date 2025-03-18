@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Container */
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Header Section */
+.home-header {
+  background: linear-gradient(135deg, #ff5733, #c70039);
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.home-header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Explore Button */
+.explore-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background: #e74c3c;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background: #ff5733;
+}
+
+/* Featured Movies Section */
+.featured-section {
+  margin-top: 50px;
+}
+
+.featured-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Movie List */
+.movie-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Movie Card */
+.movie-card {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.movie-card p {
+  font-size: 14px;
+  color: #bbb;
+}

@@ -1,0 +1,37 @@
+#movieDetails {
+  text-align: center;
+  padding: 40px;
+  background-color: #1c1c1c;
+  color: white;
+  min-height: 100vh;
+}
+
+#movieDetails h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#movieDetails p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#movieDetails iframe {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#movieDetails a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#movieDetails a:hover {
+  background-color: #e74c3c;
+}
